@@ -1,0 +1,65 @@
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git init
+Initialized empty Git repository in C:/Users/user/Desktop/Rahul/.git/
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git config --global user.name "Rahul"
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git config user.name
+Rahul
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git config --global user.email "salverahul367@gmail.con"
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git config  user.email
+salverahul367@gmail.con
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ touch rahul.txt
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo.txt
+        rahul.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git add --a
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   demo.txt
+        new file:   rahul.txt
+
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git commit
+[master (root-commit) 56132a8] my first commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 demo.txt
+ create mode 100644 rahul.txt
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$ git log
+commit 56132a895c807e9100d558b20c0b8a19a33cebfc (HEAD -> master)
+Author: Rahul <salverahul367@gmail.con>
+Date:   Wed Jun 15 04:04:51 2022 -0700
+
+    my first commit
+
+user@DESKTOP-7KV4HPC MINGW64 ~/Desktop/Rahul (master)
+$
